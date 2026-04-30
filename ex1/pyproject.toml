@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "matrix-analysis"
+version = "0.1.0"
+description = "Matrix data analysis script"
+authors = ["Flora <flora@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.10"
+pandas = "*"
+numpy = "*"
+requests = "*"
+matplotlib = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
