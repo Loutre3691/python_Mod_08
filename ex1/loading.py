@@ -38,3 +38,13 @@ Checking dependencies:
 
     print("Analysis complete!")
     print(f"Results saved to: {png_name}")
+
+# --- EXECUTION NOTES (POETRY) ---
+# If poetry command is not found in PATH, use the full path:
+#
+# 1. Install dependencies:
+# /home/fde-chec/.local/share/pypoetry/venv/bin/poetry install
+#
+# 2. Run the script within the Poetry environment:
+# /home/fde-chec/.local/share/pypoetry/venv/bin/poetry run python loading.py
+# --------------------------------
